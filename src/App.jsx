@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import User from "./Components/User";
 import Github from "./Components/Github";
+import { Userkushal } from "./Components/Userkushal";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="user/:userid" element={<User />} />
           <Route path="github" element={<Github/>} />
+          <Route path="user/kushal" element={<Userkushal/>} />
+          
         </Route>
       </Routes>
     </>
